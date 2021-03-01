@@ -1,4 +1,9 @@
-body, h1, h2, h3, ul, p {
+body,
+h1,
+h2,
+h3,
+ul,
+p {
   margin: 0;
   padding: 0;
 }
@@ -108,4 +113,46 @@ body, h1, h2, h3, ul, p {
   background-color: coral;
   color: #fff;
   margin-top: 60px;
+}
+
+.main-content {
+  width: 65%;
+  float: left;
+}
+
+.sidebar {
+  width: 30%;
+  float: right;
+}
+
+#about-us {
+  margin: 40px 0;
+  font-family: sans-serif;
+}
+
+.bg-dark {
+  background-color: #35424a;
+  color: #fff;
+  padding: 15px;
+}
+
+.achievements-box {
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #e5e5e5;
+  border: 1px solid #555;
+}
+
+.sidebar label {
+  display: block;
+  margin: 10px 0;
+}
+
+.sidebar input,
+textarea {
+  width: 100%;
+  padding: 10px 0;
+}
+.active {
+  color: coral !important;
 }
