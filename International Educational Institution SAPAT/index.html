@@ -4,8 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/3d6940012f.js"
+      crossorigin="anonymous"
+    ></script>
     <title>International Educational Institution SAPAT</title>
     <link rel="stylesheet" href="css/style.css" />
+    <!--Mobile-->
+    <link rel="stylesheet" media="(max-width:500px)" href="mobile.css" />
   </head>
   <body>
     <div id="header">
@@ -15,6 +34,31 @@
           Educational Institution
         </h1>
         <ul class="navbar">
+          <li>
+            <a href="#" class="active">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="achievements.html">Achievements</a>
+          </li>
+        </ul>
+      </div>
+      <!--dropdown list-->
+      <div class="dropdown">
+        <a
+          class="btn btn-secondary dropdown-toggle"
+          href="#"
+          role="button"
+          id="dropdownMenuLink"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bars"></i>
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
           <li>
             <a href="#" class="active">Home</a>
           </li>

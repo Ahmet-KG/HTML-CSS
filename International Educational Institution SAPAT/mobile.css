@@ -1,0 +1,90 @@
+#header {
+  display: flex;
+}
+.dropdown {
+  margin-top: 0.4rem;
+}
+.dropdown a {
+  color: #35424a;
+}
+.dropdown ul {
+  background-color: #35424a;
+  min-width: 7rem;
+  text-align: center;
+}
+.dropdown ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+}
+#header h1 {
+  font-size: 1.1rem;
+}
+.navbar {
+  display: none;
+}
+#banner {
+  background-repeat: no-repeat;
+  background-size: 250%;
+  background-position: center 2px;
+}
+#newsletter h3 {
+  font-size: 0.9rem;
+  padding-bottom: 9px;
+}
+#newsletter .right {
+  margin-right: 4rem;
+}
+input:focus {
+  outline: none;
+}
+#newsletter input {
+  position: relative;
+  padding: 0;
+}
+
+#newsletter button {
+  position: absolute;
+  padding: 2px 5px;
+}
+.school-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  width: 100%;
+}
+.box p {
+  font-size: 0.9rem;
+}
+.box h3 {
+  font-size: 1rem;
+}
+#footer {
+  font-size: 0.6rem;
+}
+.main-content {
+  width: 100%;
+  font-size: 0.9rem;
+}
+.main-content h3 {
+  text-align: center;
+}
+.sidebar {
+  width: 100%;
+  font-size: 00.9rem;
+  padding-top: 15px;
+}
+.achievements-box {
+  padding: 10px;
+}
+.achievements-box h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.achievements-box p {
+  font-size: 0.85rem;
+}
+form h3 {
+  font-size: 1.2rem;
+}

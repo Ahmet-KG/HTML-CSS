@@ -1,14 +1,10 @@
-body,
-h1,
-h2,
-h3,
-ul,
-p {
+* {
   margin: 0;
   padding: 0;
 }
 
 #header {
+  display: flex;
   background-color: #35424a;
   border-bottom: 4px solid coral;
 }
@@ -55,6 +51,12 @@ p {
   background-position: center -100px;
 }
 
+@media (min-width: 500px) {
+  .dropdown {
+    display: none;
+  }
+}
+
 #newsletter {
   background-color: #35424a;
   color: #fff;
@@ -70,6 +72,10 @@ p {
 
 #newsletter .right {
   float: right;
+}
+
+input:focus {
+  outline: none;
 }
 
 #newsletter input {
