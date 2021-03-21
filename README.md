@@ -1,3 +1,3 @@
 # HTML-CSS
 
-Live link is here => https://sapatwebsite.netlify.app/
+Live link is here => https://sapat-website.netlify.app/
