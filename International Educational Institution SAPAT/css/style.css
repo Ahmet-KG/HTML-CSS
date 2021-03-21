@@ -51,7 +51,7 @@
   background-position: center -100px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 501px) {
   .dropdown {
     display: none;
   }
