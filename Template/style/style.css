@@ -5,15 +5,15 @@
   font-family: sans-serif;
 }
 @font-face {
-  font-family: Roboto-Black;
+  font-family: "Roboto-Black";
   src: url(../fonts/Roboto-Black.ttf);
 }
 @font-face {
-  font-family: Roboto-Regular;
+  font-family: "Roboto-Regular";
   src: url(../fonts/Roboto-Regular.ttf);
 }
 @font-face {
-  font-family: Montserrat-Medium;
+  font-family: "Montserrat-Medium";
   src: url(../fonts/Montserrat-Medium.ttf);
 }
 .container {
@@ -35,7 +35,7 @@
 }
 .header h1 {
   padding: 40px 0;
-  font-family: Roboto-Black;
+  font-family: "Roboto-Black";
   font-weight: bold;
   color: #fff;
   size: 36px;
@@ -43,24 +43,31 @@
 }
 .header .logo {
   color: #0f4898;
-  font-family: Roboto-Black;
+  font-family: "Roboto-Black";
 }
 .header ul {
   padding: 47px 0;
 }
 .header li {
   display: inline;
-  padding: 0 20px;
 }
 .header li a {
   text-decoration: none;
   color: #fff;
-  font-family: Montserrat-Medium;
+  font-family: "Montserrat-Medium";
+  font-size: 13px;
+  padding: 12px;
+  border-radius: 4px;
+}
+.header li a:hover {
+  background-color: #ddd;
+  color: black;
 }
 .header p {
   color: #fff;
   padding: 30px 0;
-  font-family: Roboto-Regular;
+  font-family: "Roboto-Regular";
+  font-size: 12px;
 }
 .middle-content {
   margin: 108px 0 192px 0;
@@ -70,29 +77,34 @@
 .middle-right img {
   width: 582px;
   height: 450px;
+  padding-left: 68.18px;
 }
 .middle-left h2 {
-  font-family: Roboto-Regular;
+  font-family: "Roboto-Regular";
   font-weight: bold;
+  font-size: 30px;
 }
 .middle-left p {
   padding-top: 20px;
-  font-family: Roboto-Regular;
+  font-family: "Roboto-Regular";
+  font-size: 16px;
 }
 .middle-left div {
   width: 475px;
   padding-top: 127px;
-  font-family: Montserrat-Medium;
+  font-family: "Montserrat-Medium";
+  font-size: 13px;
 }
 .news {
   display: flex;
   justify-content: space-between;
 }
 .news h2 {
-  font-family: Roboto-Regular;
+  font-family: "Roboto-Regular";
+  font-size: 30px;
 }
 .news .left p {
-  font-family: Roboto-Regular;
+  font-family: "Roboto-Regular";
   padding: 20px 0 40px 0;
 }
 .news .right a {
@@ -100,7 +112,7 @@
   text-decoration: none;
   background-color: #0f4898;
   color: #fff;
-  font-family: Roboto-Regular;
+  font-family: "Roboto-Regular";
   font-size: 12px;
   padding: 14px 24px;
   border-radius: 4px;
@@ -108,10 +120,10 @@
 .box {
   display: flex;
   justify-content: space-between;
-  font-family: Roboto-Regular;
+  font-family: "Roboto-Regular";
 }
 .box-content img {
-  width: 347.3px;
+  width: 347.73px;
   height: 200px;
 }
 .box .date {
@@ -140,11 +152,30 @@
   text-decoration: none;
   background-color: #0f4898;
   color: #fff;
-  font-family: Roboto-Regular;
+  font-family: "Roboto-Regular";
   font-size: 12px;
   padding: 14px 24px;
   border-radius: 4px;
   margin: 44px 152.73px 127px 24.55px;
 }
 #footer {
+  height: 125px;
+  background: #323232;
+  margin-top: 97px;
+  text-align: center;
+}
+#footer ul li {
+  display: inline-block;
+  padding: 40px 25px 22px 25px;
+}
+#footer ul li a {
+  text-decoration: none;
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  color: #fff;
+}
+#footer p {
+  font-family: "Roboto-Regular";
+  font-size: 11px;
+  color: #dcdcdc;
 }
