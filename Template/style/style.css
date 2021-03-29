@@ -19,6 +19,7 @@
 .container {
   width: 70%;
   margin: auto;
+  overflow: hidden;
 }
 #header {
   background-image: url(../images/Rectangle.png);
@@ -70,14 +71,15 @@
   font-size: 12px;
 }
 .middle-content {
-  margin: 108px 0 192px 0;
+  margin-top: 108px;
+  margin-bottom: 192px;
   display: flex;
   justify-content: space-between;
 }
 .middle-right img {
-  width: 582px;
-  height: 450px;
-  padding-left: 68.18px;
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 4rem;
 }
 .middle-left h2 {
   font-family: "Roboto-Regular";
@@ -107,6 +109,9 @@
   font-family: "Roboto-Regular";
   padding: 20px 0 40px 0;
 }
+.news .right {
+  padding: 10px;
+}
 .news .right a {
   width: 190px;
   text-decoration: none;
@@ -122,9 +127,12 @@
   justify-content: space-between;
   font-family: "Roboto-Regular";
 }
+.box-content {
+  margin-bottom: 15px;
+}
 .box-content img {
-  width: 347.73px;
-  height: 200px;
+  max-width: 95%;
+  max-height: 100%;
 }
 .box .date {
   padding: 30px 0 15px 24.55px;
