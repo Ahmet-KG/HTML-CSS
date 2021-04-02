@@ -4,22 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
     <title>Template</title>
   </head>
   <body>
-    <section id="header">
+    <header id="header">
       <div class="border-bottom">
         <div class="container">
           <div class="header">
             <h1><span class="logo">Крио</span>ГАЗ</h1>
-            <ul class="navbar">
-              <li><a href="#" class="active">Главная</a></li>
-              <li><a href="#">О компании</a></li>
-              <li><a href="#">Решения</a></li>
-              <li><a href="#">Реализованные проекты</a></li>
-              <li><a href="#">Контакты</a></li>
-            </ul>
+            <div class="navbar-links">
+              <ul>
+                <li><a href="#" class="active">Главная</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Решения</a></li>
+                <li><a href="#">Реализованные проекты</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
             <div class="contact">
               <p>
                 +7 (812) 383-70-70 <br />
@@ -27,10 +34,15 @@
                 cryogas@cryogas.ru
               </p>
             </div>
+            <div class="burger">
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars fa-2x" style="color: white"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </header>
 
     <section>
       <div class="container">
@@ -99,13 +111,13 @@
       </div>
     </section>
 
-    <section id="footer">
+    <footer id="footer">
       <ul>
         <li><a href="#">Дисклеймер</a></li>
         <li><a href="#">Лицензии</a></li>
         <li><a href="#">Карта сайта</a></li>
       </ul>
       <p>© 2019 ЗАО «Криогаз» Россия, 196128, г. Санкт-Петербург, а/я 100.</p>
-    </section>
+    </footer>
   </body>
 </html>

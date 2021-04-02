@@ -40,13 +40,15 @@
   font-weight: bold;
   color: #fff;
   size: 36px;
-  line-height: 42.19px;
+  line-height: 42px;
 }
 .header .logo {
   color: #0f4898;
   font-family: "Roboto-Black";
+  align-items: center;
 }
 .header ul {
+  display: flex;
   padding: 47px 0;
 }
 .header li {
@@ -69,6 +71,9 @@
   padding: 30px 0;
   font-family: "Roboto-Regular";
   font-size: 12px;
+}
+.header .burger {
+  display: none;
 }
 .middle-content {
   margin-top: 108px;
@@ -135,7 +140,7 @@
   max-height: 100%;
 }
 .box .date {
-  padding: 30px 0 15px 24.55px;
+  padding: 30px 0 15px 24px;
   font-weight: 300;
   font-size: 11px;
   line-height: 13px;
@@ -147,11 +152,11 @@
   font-weight: 500;
   letter-spacing: 0.03em;
   color: #303942;
-  padding: 15px 32.73px 15px 24.55px;
+  padding: 15px 33px 15px 24px;
 }
 .box .box-content p {
   font-weight: 300;
-  line-height: 13.54px;
+  line-height: 13px;
   font-size: 11px;
   padding: 0 70px 44px 25px;
 }
@@ -164,7 +169,7 @@
   font-size: 12px;
   padding: 14px 24px;
   border-radius: 4px;
-  margin: 44px 152.73px 127px 24.55px;
+  margin: 44px 153px 127px 24px;
 }
 #footer {
   height: 125px;
