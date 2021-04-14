@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="style/style.css" />
     <title>Theater</title>
   </head>
+
   <body>
     <header id="header">
       <div class="left-info">
@@ -84,6 +85,7 @@
           </div>
         </nav>
       </div>
+      
       <div class="container">
         <div class="banner">
           <div class="left">
@@ -97,7 +99,7 @@
             <button type="button" class="btn btn-primary">Афиша</button>
           </div>
           <div class="right">
-            <div class="w3-content" style="max-width: 400px">
+            <div class="w3-content" style="max-width: 300px">
               <img
                 class="mySlides"
                 src="images/carousel.png"
@@ -117,18 +119,81 @@
 
             <div class="w3-center">
               <div class="w3-section">
-                <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">
-                  ❮ Prev
+                <button class="w3-button w3-text-white" onclick="plusDivs(-1)">
+                  ❮ Пред
                 </button>
-                <button class="w3-button w3-light-grey" onclick="plusDivs(1)">
-                  Next ❯
+                <button class="w3-button w3-text-white" onclick="plusDivs(1)">
+                  След ❯
                 </button>
               </div>
+              <button class="w3-button demo" onclick="currentDiv(1)">1</button>
+              <button class="w3-button demo" onclick="currentDiv(2)">2</button>
+              <button class="w3-button demo" onclick="currentDiv(3)">3</button>
             </div>
           </div>
         </div>
       </div>
     </header>
+
+    <section id="info">
+      <div class="container">
+        <h2><span class="gold">О</span> ТЕАТРЕ</h2>
+        <div class="about-us">
+          <div class="info-left">
+            <h5>Самый лучший театр СПБ</h5>
+            <p>
+              Как свидетельствуют архивные документы, первое каменное здание
+              Большого театра начали возводить в 1775 году по проекту Антонио
+              Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не
+              мог лично наблюдать за ходом работ, Екатерина II поручила
+              немецкому театральному декоратору и архитектору Людвигу Филиппу
+              Тишбейну создать новый проект театра, который и был воплощён
+              архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его
+              состоялось в 1783 году, хотя, основываясь на других
+              свидетельствах, годом открытия можно считать 1784 год.
+            </p>
+          </div>
+          <div class="info-middle">
+            <h5>Немного о цифрах</h5>
+            <div class="chair-icon"><i class="fas fa-chair fa-4x"></i></div>
+            <p><span class="gold">1600</span> посадочный мест</p>
+            <div class="history-icon">
+              <i class="fas fa-landmark fa-4x"></i>
+            </div>
+            <p><span class="gold">350 </span>лет истории</p>
+          </div>
+          <div class="info-right">
+            <img src="images/middle-image.png" alt="oscar" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="images">
+      <h2><span class="gold">НАШИ</span> ПОСТАНОВКИ</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <a href="images/oskar.png" target="_blank"
+            ><img src="images/oskar.png" alt="oskar"
+          /></a>
+        </div>
+        <div class="col-md-3">
+          <a href="images/road.png" target="_blank"
+            ><img src="images/road.png" alt="road"
+          /></a>
+        </div>
+        <div class="col-md-3">
+          <a href="images/zolotoy-gramofon.png" target="_blank"
+            ><img src="images/zolotoy-gramofon.png" alt="zolotoy-gramofon"
+          /></a>
+        </div>
+        <div class="col-md-3">
+          <a href="images/shelkunchik.png" target="_blank"
+            ><img src="images/shelkunchik.png" alt="shelkunchik"
+          /></a>
+        </div>
+      </div>
+    </section>
 
     <script src="script/app.js"></script>
   </body>
