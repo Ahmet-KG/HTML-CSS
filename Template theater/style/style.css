@@ -131,3 +131,12 @@ body {
 .row {
   padding-left: 100px;
 }
+.rating {
+  background-image: url(../images/bottom-bg.png);
+  height: 60vh;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
