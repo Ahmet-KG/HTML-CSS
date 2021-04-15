@@ -84,10 +84,13 @@ body {
   margin-top: 150px;
   color: #fff;
 }
-#info h2 {
+.title {
   text-align: center;
   padding-bottom: 100px;
   letter-spacing: 0.2rem;
+}
+.gold {
+  color: #d1a954;
 }
 .about-us {
   display: flex;
@@ -107,9 +110,7 @@ body {
 .info-middle p {
   font-size: 0.9rem;
 }
-.gold {
-  color: #d1a954;
-}
+
 .info-middle .chair-icon {
   padding: 40px 0 15px 0;
 }
@@ -124,10 +125,6 @@ body {
   margin-top: 100px;
   color: #fff;
 }
-#images h2 {
-  padding-bottom: 100px;
-  letter-spacing: 0.2rem;
-}
 .row {
   padding-left: 100px;
 }
@@ -140,3 +137,54 @@ body {
   align-items: center;
   color: #fff;
 }
+.star {
+  letter-spacing: .5rem;
+}
+.years {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.stars {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+#supporters{
+  margin-top: 100px;
+  text-align: center;
+  color: #fff;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+#contact-us {
+  color: #fff;
+  margin-top: 100px;
+}
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.contact p {
+  font-size: 0.8rem;
+}
+.mini-letters {
+  font-size: .6rem;
+  color: #989898;
+}
+textarea:focus, input:focus {
+  outline: none;
+}
+
+.border-bottomm {
+  border-bottom: 1px solid #565656;
+}
+.footer {
+  padding: 40px 0 30px 0;
+  display: flex;
+  justify-content: space-between;
+  color: #989898;
+  font-size: .8rem;
+}
+
