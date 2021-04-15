@@ -6,6 +6,7 @@
 }
 body {
   background: #313131;
+  overflow: hidden;
 }
 #header {
   background-image: url(../images/background.png);
@@ -70,7 +71,7 @@ body {
   letter-spacing: 0.2rem;
 }
 .banner .left p {
-  font-size: 00.8rem;
+  font-size: 0.8rem;
   padding: 20px 0;
 }
 .banner .right {
@@ -176,7 +177,30 @@ body {
 textarea:focus, input:focus {
   outline: none;
 }
+input, textarea {
+background-color : #444444;
+border: #444444;
+color:#fff;
+font-size: .8rem; 
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #989898;
+  opacity: 1; /* Firefox */
+  padding: 10px;
+  font-size: .8rem;
+}
 
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #989898;
+  padding: 10px;
+  font-size: .8rem;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #989898;
+  padding: 10px;
+  font-size: .8rem;
+}
 .border-bottomm {
   border-bottom: 1px solid #565656;
 }
